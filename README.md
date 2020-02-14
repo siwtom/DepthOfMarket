@@ -17,7 +17,7 @@ Smart DOM sử dụng thông qua một máy chủ trung gian để lấy dự li
   + Include/Mql
   + Library/MT4 (32 bits) - MT5 32 bits sử dụng chung Lib này với MT4. Copy các file dll vào MQL4\Libraries (Không phải cả thư mục MT4)
   + Library/MT5 dành cho MT5 64 bits.
-  * Lưu ý: các thư viện DLL trong thư mục Library được xây dựng trên nền tảng Visual C++ runtime (2015), vì vậy phải cài đặt Microsoft Visual C++ 2015 trước, tải và cài đặt tại https://www.microsoft.com/en-us/download/details.aspx?id=53587 hoặc trong bộ Release này (Cài đặt vc_redist.x64.exe cho bản 64 Bits (MT5) và vc_redist.x86.exe cho bản 32 Bits (MT4).
+  * Lưu ý: các thư viện DLL trong thư mục Library được xây dựng trên nền tảng Visual C++ runtime (2015), vì vậy phải cài đặt Microsoft Visual C++ 2015 trước, tải và cài đặt tại https://www.microsoft.com/en-us/download/details.aspx?id=53587 hoặc trong bộ Release này (Cài đặt vc_redist.x64.exe cho bản 64 Bits (MT5) và vc_redist.x86.exe cho bản 32 Bits (MT4). Có thể tải bản Visual C++ full từ 2015 - 2019 tại link này: https://support.microsoft.com/vi-vn/help/2977003/the-latest-supported-visual-c-downloads
   
 2.2 Cài đặt Indicator Smart DOM LMAX trên MT
  - Copy file LMAXSmartDOM.ex4 vào thư mục MQL4\Indicators
