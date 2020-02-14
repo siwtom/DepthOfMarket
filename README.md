@@ -1,8 +1,9 @@
-# DepthOfMarket
+# DepthOfMarket - Smart DOM Lmax
 Display DOM on MT4 (MT5) platform
 
 1. Giới thiệu
 Công cụ Smart DOM LMAX hỗ trợ hiển thị DOM (Depth Of Market) của sàn LMAX (Một sàn lớn và đồng thời là nhà cung cấp thanh khoản Liquidity Provider (LP), do vậy khối lượng giao dịch lớn, thể hiện tốt mức độ thanh khoản của thị trường. LMAX hỗ trợ DOM đến level 20 (Top of order book).
+Công cụ này hiện thị khối lượng theo mức giá trên Chart của MT4/5, đồng thời tính tổng khối lượng (Volume) các lệnh theo ASK và BID, từ đó giúp người dùng thấy được sự mất cân bằng (Imbalance - Disequilibrium) của Market hiện tại, giá luôn có xu hướng dịch chuyển về mức cân bằng. Đồng thời công cụ thể hiện mức giá có khối lượng lớn nhất trong DOM (Đó sẽ kháng cự/hỗ trợ cứng).
 Smart DOM sử dụng thông qua một máy chủ trung gian để truyền dữ liệu về MT Client thông qua giao thức tcp, udp, pgm, norm, ipc, inproc, gssapi bằng thư viện (Lib) ZeroMQ.
 ============
 2. Cài đặt
@@ -44,3 +45,8 @@ Smart DOM sử dụng thông qua một máy chủ trung gian để truyền dữ
 *** Không nên bật quá nhiểu Chart để tránh quá tải cho MT
 *** Nếu chất lượng đường truyền Internet hạn chế, có thể làm chậm hoặc treo đơ MT
 *** Nếu MT4 bị treo đơ không thể tiếp tục, hãy tắt MT4 và xóa chart (File: .chr trong thư mục Profile của MT4) rùi bật lại MT4.
+5. DOWNLOAD
+ 5.1 Download bộ cài đặt: https://github.com/siwtom/DepthOfMarket/releases
+ 5.2 Download hướng dẫn: https://github.com/siwtom/DepthOfMarket/blob/master/GuideSmartDoMLmax.docx
+
+Mọi thắc mắc vui lòng liên hệ Telegram: https://t.me/siwtom
