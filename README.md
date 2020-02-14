@@ -4,7 +4,8 @@ Display DOM on MT4 (MT5) platform
 1. Giới thiệu
 Công cụ Smart DOM LMAX hỗ trợ hiển thị DOM (Depth Of Market) của sàn LMAX (Một sàn lớn và đồng thời là nhà cung cấp thanh khoản Liquidity Provider (LP), do vậy khối lượng giao dịch lớn, thể hiện tốt mức độ thanh khoản của thị trường. LMAX hỗ trợ DOM đến level 20 (Top of order book).
 Công cụ này hiện thị khối lượng theo mức giá trên Chart của MT4/5, đồng thời tính tổng khối lượng (Volume) các lệnh theo ASK và BID, từ đó giúp người dùng thấy được sự mất cân bằng (Imbalance - Disequilibrium) của Market hiện tại, giá luôn có xu hướng dịch chuyển về mức cân bằng. Đồng thời công cụ thể hiện mức giá có khối lượng lớn nhất trong DOM (Đó sẽ kháng cự/hỗ trợ cứng).
-Smart DOM sử dụng thông qua một máy chủ trung gian để truyền dữ liệu về MT Client thông qua giao thức tcp, udp, pgm, norm, ipc, inproc, gssapi bằng thư viện (Lib) ZeroMQ.
+Smart DOM sử dụng thông qua một máy chủ trung gian để lấy dự liệu từ sàn LMAX (https://www.lmax.com/) và truyền dữ liệu (chuyển tiếp) về MT Client thông qua giao thức tcp, udp, pgm, norm, ipc, inproc, gssapi bằng thư viện (Lib) ZeroMQ.
+
 ============
 2. Cài đặt
  * Xác định thư mục Data của MT 4(MT5): Vào Menu File -> Open Data Folder (Ctrl + Shift + D)
